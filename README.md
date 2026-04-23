@@ -78,10 +78,10 @@ You can set up the user default configuration by:
 import { setWizardConfig } from 'console-wizard';
 
 setWizardConfig({
-  /* Weather to include timestamp in the log */
+  /* Whether to include timestamp in the log */
   includeTimestamp: true,
 
-  /* Weather to include status in the log (Ex. "ERROR", "WARN" etc) */
+  /* Whether to include status in the log (Ex. "ERROR", "WARN" etc) */
   includeStatus: true,
 });
 ```
